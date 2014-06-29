@@ -62,7 +62,7 @@ nav ul #publicar_nav
 {
 	
 	position: absolute;
-	top: -0.3em;
+	top: 0em;
 	right: 0;
 }
 
@@ -72,7 +72,7 @@ nav ul #publicar_nav a
 	border-radius: 5px;
 	box-shadow: rgba(0,0,0,0.5) 5px 5px 20px;
 	font-style: italic;
-	padding: 0.8em 0.5em;
+	padding: 0.3em 0.5em;
 	text-decoration: none;
 	text-shadow: rgba(0,0,0,0.5) 2px 2px 5px;
 }
@@ -82,6 +82,7 @@ nav ul li
 {
 	display: inline-block;
 	margin: 0 1em 0 0;
+
 }
 
 nav ul li a
@@ -89,6 +90,8 @@ nav ul li a
 	color: white;
 	display: block;
 	padding: 0.5em 0;
+	text-decoration: none;
+
 }
 
 
@@ -198,3 +201,33 @@ footer p:last-child:before
 }
 
 
+/** Estos son mis experimentos con las cajas **/
+
+#contenido .experimentos
+{
+	background: white;
+	padding: 0.8em;
+	border-bottom: 3px solid red;
+	overflow: hidden;
+}
+#contenido .experimentos figure
+{
+	float: left;
+
+}
+
+#contenido .experimentos figure img
+{
+	width: 120px;
+	
+}
+
+#contenido .experimentos .texto 
+{
+	background: red;
+	padding: 6px;
+	width: 100%;
+	text-align: center;
+
+	
+}
